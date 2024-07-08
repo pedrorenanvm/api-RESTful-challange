@@ -1,0 +1,1 @@
+web: java -jar build/libs/api-REST-ful-java-0.0.1-SNAPSHOT.jar

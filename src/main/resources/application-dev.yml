@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:h2:mem:dpapirf
     username: admin
-    password:ad
+    password:
   jpa:
     show-sql: true
     open-in-view: false

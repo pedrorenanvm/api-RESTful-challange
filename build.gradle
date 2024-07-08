@@ -28,6 +28,12 @@ dependencies {
 
 }
 
+tasks.jar {
+	manifest{
+		attributes["Main-Class"] = "br.com.pedrorenan.api_REST_ful_java.Application"
+	}
+}
+
 tasks.named('test') {
 	useJUnitPlatform()
 }
